@@ -1,0 +1,31 @@
+# Byte-compiled / optimized / C files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.ini
+
+# Virtual Environment
+venv/
+.venv/
+env/
+.env/
+mnet_venv/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Pytest cache
+.pytest_cache/
+
+# VS Code specific
+.vscode/
+
+# Windows specific
+setup_and_test.bat
+pytest_log.txt
+pymnet_drawcore.py
+multinetlib_tree.txt
+multinetlib_mnet_tree.txt

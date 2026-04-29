@@ -1,0 +1,43 @@
+# pyproject.toml
+
+[tool.poetry]
+name = "mnet"
+version = "0.1.1"
+description = "A Python package for complex systems analysis using multiplex networks."
+authors = ["Somphoach Saichaemchan <somphoachsai@gmail.com>"]
+readme = "README.md"
+license = "MIT"
+repository = "https://github.com/yourusername/multinetcomplex" # Add your GitHub repo URL
+
+[tool.poetry.dependencies]
+python = ">=3.10"
+numpy = ">=1.26.0"
+scipy = ">=1.11.0"
+pandas = ">=2.1.0"
+networkx = ">=3.1"
+matplotlib = ">=3.8.0"
+python-igraph = ">=0.11.5"
+seaborn = ">=0.13.2"
+pymnet = ">=1.0"
+upsetplot = ">=0.9.0"
+pyvis = ">=0.3.0"
+tqdm = ">=4.60.0"
+
+# Add other core dependencies here, like 'igraph' or 'numba' if needed [cite: 9, 10]
+
+[tool.poetry.group.dev.dependencies]
+pytest = ">=7.4.0" # For running tests [cite: 4]
+pytest-cov = ">=4.1.0" # For checking test coverage [cite: 4]
+flake8 = ">=6.1.0" # For checking code style [cite: 21]
+sphinx = ">=7.2.0" # For building documentation [cite: 5]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+addopts = "-ra -q"
+testpaths = [
+    "tests",
+]

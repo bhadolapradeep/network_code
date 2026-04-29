@@ -1,0 +1,100 @@
+multinetlib
+├── .gitignore
+├── mnet
+│   ├── analysis
+│   │   ├── community.py
+│   │   ├── network_properties.py
+│   │   ├── node_properties.py
+│   │   ├── perturbation.py
+│   │   ├── sector_analysis.py
+│   │   ├── __init__.py
+│   │   └── __pycache__
+│   │       ├── community.cpython-312.pyc
+│   │       ├── network_properties.cpython-312.pyc
+│   │       ├── node_properties.cpython-312.pyc
+│   │       ├── perturbation.cpython-312.pyc
+│   │       ├── sector_analysis.cpython-312.pyc
+│   │       └── __init__.cpython-312.pyc
+│   ├── comparison
+│   │   ├── comparator.py
+│   │   ├── __init__.py
+│   │   └── __pycache__
+│   │       ├── comparator.cpython-312.pyc
+│   │       └── __init__.cpython-312.pyc
+│   ├── data
+│   ├── dynamic
+│   │   ├── similarity.py
+│   │   ├── __init__.py
+│   │   └── __pycache__
+│   │       ├── similarity.cpython-312.pyc
+│   │       └── __init__.cpython-312.pyc
+│   ├── metrics
+│   ├── models
+│   ├── multiplex
+│   │   ├── analyzer.py
+│   │   ├── edge_analysis.py
+│   │   ├── multilink_matrix.py
+│   │   ├── properties.py
+│   │   ├── __init__.py
+│   │   └── __pycache__
+│   │       ├── analyzer.cpython-312.pyc
+│   │       ├── edge_analysis.cpython-312.pyc
+│   │       ├── multilink_matrix.cpython-312.pyc
+│   │       ├── properties.cpython-312.pyc
+│   │       └── __init__.cpython-312.pyc
+│   ├── network
+│   │   ├── construct.py
+│   │   ├── null_models.py
+│   │   ├── __init__.py
+│   │   └── __pycache__
+│   │       ├── construct.cpython-312.pyc
+│   │       ├── null_models.cpython-312.pyc
+│   │       └── __init__.cpython-312.pyc
+│   ├── utils
+│   │   ├── data_utils.py
+│   │   └── __init__.py
+│   ├── visualize
+│   │   ├── plotting.py
+│   │   ├── __init__.py
+│   │   └── __pycache__
+│   │       ├── plotting.cpython-312.pyc
+│   │       └── __init__.cpython-312.pyc
+│   ├── workflow
+│   │   ├── system_analyzer.py
+│   │   ├── __init__.py
+│   │   └── __pycache__
+│   │       ├── system_analyzer.cpython-312.pyc
+│   │       └── __init__.cpython-312.pyc
+│   ├── __init__.py
+│   └── __pycache__
+│       └── __init__.cpython-312.pyc
+├── pyproject.toml
+├── pytest_log.txt
+├── README.md
+├── setup_and_test.bat
+└── tests
+    ├── helpers
+    │   ├── sample_data.py
+    │   ├── __init__.py
+    │   └── __pycache__
+    │       ├── sample_data.cpython-312.pyc
+    │       └── __init__.cpython-312.pyc
+    ├── test_analysis.py
+    ├── test_comparison.py
+    ├── test_dynamic.py
+    ├── test_multiplex.py
+    ├── test_multiplex_edge_analysis.py
+    ├── test_multiplex_properties.py
+    ├── test_network.py
+    ├── test_workflow.py
+    ├── __init__.py
+    └── __pycache__
+        ├── test_analysis.cpython-312-pytest-8.4.2.pyc
+        ├── test_comparison.cpython-312-pytest-8.4.2.pyc
+        ├── test_dynamic.cpython-312-pytest-8.4.2.pyc
+        ├── test_multiplex.cpython-312-pytest-8.4.2.pyc
+        ├── test_multiplex_edge_analysis.cpython-312-pytest-8.4.2.pyc
+        ├── test_multiplex_properties.cpython-312-pytest-8.4.2.pyc
+        ├── test_network.cpython-312-pytest-8.4.2.pyc
+        ├── test_workflow.cpython-312-pytest-8.4.2.pyc
+        └── __init__.cpython-312.pyc
